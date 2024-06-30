@@ -59,7 +59,25 @@ h3 {
   margin-top: 10px !important;
 }
 
-@media (min-width: 480px) {
+.about-section h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.about-section h2 {
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.about-section p {
+  font-weight: normal;
+  margin: 0;
+  color: #272142;
+  opacity: 70%;
+}
+
+@media (min-width: 440px) {
   h1 {
     font-size: 96px !important;
   }
@@ -99,5 +117,31 @@ h3 {
   .project-detail {
     font-size: 16px;
     line-height: 30px;
+  }
+
+  .about-section {
+    padding: 120px;
+  }
+
+  .about-section h1 {
+    font-size: 64px !important;
+    line-height: 1.1;
+  }
+
+  .about-section h2 {
+    font-size: 18px;
+    line-height: 1.5 !important;
+  }
+
+  .about-section p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 440px) and (max-width: 574px) {
+  .about-section {
+    padding: 60px;
+    text-align: center;
   }
 }
