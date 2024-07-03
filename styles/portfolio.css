@@ -77,6 +77,16 @@ h3 {
   opacity: 70%;
 }
 
+.work-section h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.work-section h3 {
+  font-family: var(--default-font-family);
+  font-weight: bold !important;
+}
+
 @media (min-width: 440px) {
   h1 {
     font-size: 96px !important;
@@ -136,6 +146,24 @@ h3 {
   .about-section p {
     font-size: 16px;
     line-height: 30px;
+  }
+
+  .work-section {
+    padding: 150px;
+  }
+
+  .work-section h1 {
+    font-size: 64px !important;
+    line-height: 1.1;
+  }
+
+  .work-section h3 {
+    font-size: 24px !important;
+    line-height: 1;
+  }
+
+  .work-section p {
+    font-size: 14px !important;
   }
 }
 
