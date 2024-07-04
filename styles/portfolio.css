@@ -22,6 +22,11 @@ nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
+
+footer {
+  margin: 60px 0;
+}
+
 .hero {
   background-color: var(--secondary-color) !important;
   max-width: 100% !important;
@@ -30,12 +35,17 @@ nav li.active a {
 
 .hero p {
   font-weight: bold;
+  font-size: 36px!important;
 }
 
 .hero h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 14px;
+}
+
+.project-detail {
+  opacity: 70%;
 }
 
 .btn-branding {
@@ -48,11 +58,6 @@ nav li.active a {
   text-transform: capitalize;
 }
 
-.project-detail {
-  color: #272142;
-  opacity: 70%;
-}
-
 .btn-branding-outline {
   font-family: var(--default-font-family);
   font-weight: 500 !important;
@@ -63,12 +68,12 @@ nav li.active a {
   margin-top: 10px !important;
 }
 
-.about-section h1 {
+.content-section h1 {
   font-weight: bold;
   font-size: 30px;
 }
 
-.about-section h2 {
+.content-section h2 {
   font-family: var(--default-font-family);
   font-weight: bold;
   font-size: 18px;
@@ -79,11 +84,6 @@ nav li.active a {
   opacity: 70%;
 }
 
-.content-section h1 {
-  font-weight: bold;
-  font-size: 30px;
-}
-
 .content-section h3 {
   font-family: var(--default-font-family);
   font-weight: bold !important;
@@ -91,6 +91,37 @@ nav li.active a {
 
 .logo {
   max-height: 40px;
+}
+
+footer .contact-box{
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  font-size: 18px;
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 16px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #fff;
+  background-color: var(--branding-color);
 }
 
 @media (min-width: 440px) {
@@ -125,7 +156,7 @@ nav li.active a {
   }
 
   p {
-    font-size: 18px;
+    font-size: 18px!important;
   }
 
   .hero {
@@ -152,22 +183,8 @@ nav li.active a {
   }
 
   .project-detail {
-    font-size: 16px;
+    font-size: 16px!important;
     line-height: 30px;
-  }
-
-  .about-section {
-    padding: 120px;
-  }
-
-  .about-section h1 {
-    font-size: 64px !important;
-    line-height: 1.1;
-  }
-
-  .about-section h2 {
-    font-size: 18px;
-    line-height: 1.5 !important;
   }
 
   .about-section p {
@@ -184,6 +201,11 @@ nav li.active a {
     line-height: 1.1;
   }
 
+  .content-section h2 {
+    font-size: 18px;
+    line-height: 1.5 !important;
+  }
+
   .content-section h3 {
     font-size: 24px !important;
     line-height: 1;
@@ -192,18 +214,19 @@ nav li.active a {
   .content-section p {
     font-size: 14px !important;
   }
-}
 
-@media (min-width: 440px) and (max-width: 574px) {
-  .about-section {
-    padding: 60px;
-    text-align: center;
+  footer .contact-box h3{
+    font-size: 48px!important;
   }
 }
 
 @media (min-width: 200px) and (max-width: 920px) {
   .content-section {
     text-align: center;
-    padding: 100px 0;
+    padding: 60px 0;
+  }
+
+  .about-section h1 {
+    font-size: 60px !important;
   }
 }
