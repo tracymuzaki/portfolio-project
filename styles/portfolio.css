@@ -160,7 +160,7 @@ footer .social-links a:hover {
   }
 
   .hero {
-    padding: 150px;
+    padding: 80px;
   }
 
   .hero p {
@@ -193,7 +193,7 @@ footer .social-links a:hover {
   }
 
   .content-section {
-    padding: 150px;
+    padding: 80px;
   }
 
   .content-section h1 {
@@ -203,7 +203,7 @@ footer .social-links a:hover {
 
   .content-section h2 {
     font-size: 18px;
-    line-height: 1.5 !important;
+    line-height: 3.5 !important;
   }
 
   .content-section h3 {
