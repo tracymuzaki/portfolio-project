@@ -7,6 +7,8 @@
 
 p {
   font-family: var(--default-font-family);
+  margin: 0;
+  color: #272142;
 }
 
 h1,
@@ -20,7 +22,6 @@ nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
-
 .hero {
   background-color: var(--secondary-color) !important;
   max-width: 100% !important;
@@ -29,8 +30,6 @@ nav li.active a {
 
 .hero p {
   font-weight: bold;
-  margin: 0;
-  color: #272142;
 }
 
 .hero h2 {
@@ -77,9 +76,21 @@ nav li.active a {
 
 .about-section p {
   font-weight: normal;
-  margin: 0;
-  color: #272142;
   opacity: 70%;
+}
+
+.content-section h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.content-section h3 {
+  font-family: var(--default-font-family);
+  font-weight: bold !important;
+}
+
+.logo {
+  max-height: 40px;
 }
 
 @media (min-width: 440px) {
@@ -115,7 +126,6 @@ nav li.active a {
 
   p {
     font-size: 18px;
-    color: #272142;
   }
 
   .hero {
@@ -165,8 +175,22 @@ nav li.active a {
     line-height: 30px;
   }
 
-  .logo {
-    max-height: 40px;
+  .content-section {
+    padding: 150px;
+  }
+
+  .content-section h1 {
+    font-size: 64px !important;
+    line-height: 1.1;
+  }
+
+  .content-section h3 {
+    font-size: 24px !important;
+    line-height: 1;
+  }
+
+  .content-section p {
+    font-size: 14px !important;
   }
 }
 
@@ -174,5 +198,12 @@ nav li.active a {
   .about-section {
     padding: 60px;
     text-align: center;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 920px) {
+  .content-section {
+    text-align: center;
+    padding: 100px 0;
   }
 }
