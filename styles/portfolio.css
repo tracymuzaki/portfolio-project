@@ -7,6 +7,8 @@
 
 p {
   font-family: var(--default-font-family);
+  margin: 0;
+  color: #272142;
 }
 
 h1,
@@ -24,8 +26,6 @@ h3 {
 
 .hero p {
   font-weight: bold;
-  margin: 0;
-  color: #272142;
 }
 
 .hero h2 {
@@ -72,8 +72,6 @@ h3 {
 
 .about-section p {
   font-weight: normal;
-  margin: 0;
-  color: #272142;
   opacity: 70%;
 }
 
@@ -98,7 +96,6 @@ h3 {
 
   p {
     font-size: 18px;
-    color: #272142;
   }
 
   .hero {
@@ -175,9 +172,8 @@ h3 {
 }
 
 @media (min-width: 200px) and (max-width: 920px) {
-  .content-section{
+  .content-section {
     text-align: center;
     padding: 100px 0;
   }
 }
-
